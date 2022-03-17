@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="18" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-17T02:32:46 IST" name="Suite" finished-at="2022-03-17T02:34:09 IST" duration-ms="83329">
+    <groups>
+    </groups>
+    <test started-at="2022-03-17T02:32:46 IST" name="Test" finished-at="2022-03-17T02:34:09 IST" duration-ms="83329">
+      <class name="com.enrol1.scripts.EditPageTest">
+        <test-method signature="verifyEdit()[pri:1, instance:com.enrol1.scripts.EditPageTest@645aa696]" started-at="2022-03-17T02:33:34 IST" name="verifyEdit" finished-at="2022-03-17T02:33:40 IST" duration-ms="6031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEdit -->
+        <test-method signature="verifyEditList()[pri:2, instance:com.enrol1.scripts.EditPageTest@645aa696]" started-at="2022-03-17T02:33:40 IST" name="verifyEditList" finished-at="2022-03-17T02:33:55 IST" duration-ms="14988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditList -->
+        <test-method signature="verifyReset()[pri:3, instance:com.enrol1.scripts.EditPageTest@645aa696]" started-at="2022-03-17T02:33:55 IST" name="verifyReset" finished-at="2022-03-17T02:33:57 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReset -->
+      </class> <!-- com.enrol1.scripts.EditPageTest -->
+      <class name="com.enrol1.scripts.HomePageTestClass">
+        <test-method signature="Home()[pri:2, instance:com.enrol1.scripts.HomePageTestClass@5e2c3d18]" started-at="2022-03-17T02:33:02 IST" name="Home" finished-at="2022-03-17T02:33:07 IST" duration-ms="5207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+      </class> <!-- com.enrol1.scripts.HomePageTestClass -->
+      <class name="com.enrol1.scripts.CourseTestClass">
+        <test-method signature="verifyEmployeesPage()[pri:1, instance:com.enrol1.scripts.CourseTestClass@2cb4893b]" started-at="2022-03-17T02:33:07 IST" name="verifyEmployeesPage" finished-at="2022-03-17T02:33:14 IST" duration-ms="6151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeesPage -->
+        <test-method signature="addCourseVerify()[pri:2, instance:com.enrol1.scripts.CourseTestClass@2cb4893b]" started-at="2022-03-17T02:33:14 IST" name="addCourseVerify" finished-at="2022-03-17T02:33:19 IST" duration-ms="5177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCourseVerify -->
+        <test-method signature="knowMoreBtnVerify()[pri:3, instance:com.enrol1.scripts.CourseTestClass@2cb4893b]" started-at="2022-03-17T02:33:19 IST" name="knowMoreBtnVerify" finished-at="2022-03-17T02:33:34 IST" duration-ms="15102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- knowMoreBtnVerify -->
+      </class> <!-- com.enrol1.scripts.CourseTestClass -->
+      <class name="com.enrol1.scripts.AllStudentsTest">
+        <test-method signature="verifyStudentPage()[pri:1, instance:com.enrol1.scripts.AllStudentsTest@6caf0677]" started-at="2022-03-17T02:33:57 IST" name="verifyStudentPage" finished-at="2022-03-17T02:34:03 IST" duration-ms="6208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStudentPage -->
+      </class> <!-- com.enrol1.scripts.AllStudentsTest -->
+      <class name="com.enrol1.scripts.LoginTestClass">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.enrol1.scripts.LoginTestClass@72035809]" started-at="2022-03-17T02:32:46 IST" name="browserSetup" finished-at="2022-03-17T02:32:49 IST" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifyInvalidLogin()[pri:0, instance:com.enrol1.scripts.LoginTestClass@72035809]" started-at="2022-03-17T02:32:49 IST" name="verifyInvalidLogin" finished-at="2022-03-17T02:32:55 IST" duration-ms="6266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method signature="verifyValidLogin()[pri:1, instance:com.enrol1.scripts.LoginTestClass@72035809]" started-at="2022-03-17T02:32:55 IST" name="verifyValidLogin" finished-at="2022-03-17T02:33:02 IST" duration-ms="7109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.enrol1.scripts.LoginTestClass@72035809]" started-at="2022-03-17T02:34:03 IST" name="quitBrowser" finished-at="2022-03-17T02:34:09 IST" duration-ms="5807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.enrol1.scripts.LoginTestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
